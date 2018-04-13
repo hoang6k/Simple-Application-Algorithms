@@ -2,7 +2,7 @@
 int main() {
 	int n;
 	scanf("%d", &n);
-	char *s = new char[n];
+	char *s = new char[n + 1];
 	scanf("%s", s);
 	int i = n - 1;
 	while (s[i] == '1') {

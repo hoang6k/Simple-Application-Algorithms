@@ -38,3 +38,6 @@ int main() {
 		printf("%d\n", result[i]);
 	return 0;
 }
+// struct cmp{
+// 	bool operator() (int a,int b) {return a<b;}
+// };

@@ -1,1 +1,2 @@
 python test.py --num-channel 3 --xtrain-files F:\allvol\train_3band_crop --ytrain-files F:\allvol\train_3band_mask_crop --xval-files F:\allvol\test_3band_crop --yval-files F:\allvol\test_3band_mask_crop --num-epochs 2 --job-dir F:\0_Workspace\daohoang\hmodel --prefix hoang
+python task.py --num-channel 3 --xtrain-files F:\allvol\train_3band_crop --ytrain-files F:\allvol\train_3band_mask_crop --xval-files F:\allvol\test_3band_crop --yval-files F:\allvol\test_3band_mask_crop --num-epochs 2 --job-dir F:\0_Workspace\daohoang\hmodel --prefix hoang
